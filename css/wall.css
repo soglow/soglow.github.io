@@ -1,0 +1,46 @@
+<!--
+
+#wall_page_content_container
+ {
+  float:left;
+  width:100%;
+ }
+
+.wall_tube_embedded_video_container
+ {
+  float:left;
+  width:100%;
+
+  margin:5% 0;
+ }
+
+.tube_video_heading
+ {
+  font-size:1.25em;
+  font-weight:normal;
+ }
+
+.wall_gram_image_container
+ {
+  float:left;
+
+  width:100%;
+  height:auto;
+
+  margin:0 3% 3% 0;
+
+  background-size:100% 100%;
+ }
+
+.wall_gram_image_container img
+ {
+  width:75%;
+ }
+
+.wall_tube_embedded_video_container .tube_embed_item iframe
+ {
+  width:75%;
+  height:55%;
+ }
+ 
+-->

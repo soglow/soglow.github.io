@@ -1,0 +1,383 @@
+<!--
+
+body
+{
+ margin:0px;
+ padding:0px;
+
+ background-color:#F1F1F7;
+}
+
+#page_content
+ {
+  float:left;
+  width:75%;
+
+  margin:0 0 0% 8%;
+  padding:0 3% 7% 3%;
+
+  background-color:#FFF;
+ }
+
+#page_title
+ {
+  font-size:3em;
+
+  color:#666;
+ }
+
+#page_header,
+#page_body
+ {
+  /^ border:1px solid #F1F1F7; ^/
+ }
+
+#user_header
+ {
+  float:left;
+  width:100%;
+
+  padding:40px 0px 20px 0px;
+
+  font-size:200%;
+ }
+
+#user_avatar_container
+ {
+  float:left;
+
+  width:15%;
+  height:15%;
+
+  border-radius:50%;
+
+  padding:5px;
+
+  border:1px solid #DDD;
+
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+
+ }
+
+#user_avatar_container:hover
+ {
+  cursor:pointer;
+ }
+
+#user_avatar
+ {
+  float:left;
+
+  width:100%;
+  height:100%;
+
+  background-size:100% 100%;
+
+  border:1px solid #F1F1F7;
+
+  border-radius:50%;
+
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+
+  background-position:50% 50%;
+  background-repeat:no-repeat;
+ }
+
+#user_details_nav
+ {
+  float:left;
+  width:80%;
+
+  padding:3% 0 0 2%;
+ }
+
+#username_container
+ {
+  float:left;
+  width:100%;
+ }
+
+#username_container a
+ {
+  color:#000;
+
+  text-decoration:none;
+ }
+
+#user_description
+{
+  float:left;
+  width:100%;
+
+  padding-left:5px;
+
+  font-family:arial;
+  font-size:.40em;
+
+  color:#666;
+ }
+
+#user_full_name
+ {
+  color:#333;
+ }
+
+#user_social_media_nav
+ {
+  float:left;
+  width:100%;
+
+  margin:1% 0 0 0;
+  padding:0;
+ }
+
+#user_social_media_nav li
+ {
+  float:left;
+
+  display:inline;
+
+  padding:1% 5%;
+
+  text-align:center;
+
+  font-size:.5em;
+
+  color:#444;
+
+  text-decoration:none;
+ }
+
+#user_social_media_nav li a
+ {
+  text-decoration:none;
+
+  font-size:.8em;
+
+  font-family:arial;
+
+  color:#666;
+ }
+
+#user_social_media_nav .social_platform_name
+ {
+  font-size:.75em;
+ }
+
+#page_body_container
+ {
+  float:left;
+  width:100%;
+
+  padding-left:2%;
+ }
+
+#page_nav
+ {
+  float:left;
+  width:100%;
+
+  margin:3% 0;
+  padding:0;
+
+  border-bottom:1px solid #F1F1F7;
+ }
+
+#page_nav li
+ {
+  float:left;
+
+  display:inline;
+
+  padding:1% 3%;
+ }
+
+#selected_page_nav_item
+ {
+  background-color:#F1F1F7;
+ }
+
+#page_nav li:hover
+ {
+  background-color:#F1F1F7;
+ }
+
+#page_nav li a
+ {
+  font-family:arial;
+
+  color:#444;
+
+  text-decoration:none;
+ }
+
+.user_social_media_nav_item
+ {
+  border-right:1px solid #F1F1F7;
+ }
+
+#blog_page_content_container,
+#repop_page_content_container
+ {
+  font:.85em arial, normal;  
+ }
+
+#page_content_footer
+ {
+  float:left;
+  width:100%;
+
+  margin-top:6%;
+
+  text-align:center;
+ }
+
+#tube_content_footer
+ {
+  float:left;
+  width:75%;
+ }
+
+#page_content_footer a
+ {
+  text-decoration:none;
+
+  border-bottom:1px solid #F1F1F7;
+
+  color:#333;
+ }
+
+/* gram and tube item styles */
+
+.gram_image_container
+ {
+  float:left;
+
+  width:75%;
+  height:75%;
+
+  margin:0 3% 3% 0;
+
+  background-size:100% 100%;
+ }
+
+.gram_image_container:hover
+ {
+  cursor:pointer;
+ }
+
+#gram_iframe_window_container
+ {
+  display:none;
+
+  float:left;
+
+  width:75%;
+  height:75%;
+
+  position:fixed;
+  z-index:10;
+
+  left:12%;
+  top:23%;
+ }
+
+#gram_iframe_navbar
+ {
+  float:left;
+  width:100%;
+
+  padding:2px 2px;
+
+  text-align:right;
+
+  font:1.1em arial, normal;
+
+  border-top:1px solid #CCC;
+
+  background-color:#F1F1F7;
+ }
+
+#gram_iframe_navbar a,
+#gram_iframe_view_instagram_link
+ {
+  text-decoration:none;
+
+  color:#333;
+ }
+
+#gram_iframe_view_instagram_link
+ {
+  margin-left:5px;
+
+  font:.75em arial, normal;
+ }
+
+#gram_iframe_view_instagram_container
+ {
+  float:left;
+ }
+
+#gram_iframe_close_button
+ {
+  floaat:right;
+ }
+
+#gram_iframe_close_button:hover
+ {
+  cursor:pointer;
+ }
+
+#gram_iframe_container
+ {
+  float:left;
+
+  width:100%;
+  height:97%;
+
+  border:1px solid #EFA700;
+ }
+
+#gram_iframe
+ {
+  float:left;
+
+  width:100%;
+  height:100%;
+
+  border:0px;
+ }
+
+.tube_embedded_video_container
+ {
+  float:left;
+  width:100%;
+
+  margin:5% 0;
+ }
+
+.tube_video_heading
+ {
+  font-size:1.25em;
+  font-weight:normal;
+ }
+
+.tube_embedded_video_container .tube_embed_item
+ {
+  float:left;
+
+  width:75%;
+  height:55%;
+ }
+
+.tube_embedded_video_container .tube_embed_item iframe
+ {
+  float:left;
+
+  width:100%;
+  height:100%;
+ }
+
+-->
