@@ -16,7 +16,7 @@
 
    user_twitter_page_url = 'https://twitter.com/atleeeey';
    user_snapchat_page_url = 'https://www.snapchat.com/add/atleeeey';
-   user_periscope_page_url = '#';
+   user_periscope_page_url = 'https://www.periscope.tv/atleeeey';
 
    timeline_array = [
 		     {item_type:'gram', item_data:{filename:'23161640_1506193179428104_6080028207560523776_n.jpg',
