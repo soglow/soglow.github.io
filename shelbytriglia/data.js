@@ -14,7 +14,7 @@
    user_tube_service = 'Youtube';
    user_tube_page_url = 'https://www.youtube.com/channel/UCGIEFlCn6rEb2qJiP4Thj2w/videos';
 
-   user_twitter_page_url = 'https://twitter.com/Shellbeeee_11';
+   user_twitter_page_url = 'https://twitter.com/shelbytriglia';
    user_snapchat_page_url = 'https://www.snapchat.com/add/shelbeeee_II';
    user_periscope_page_url = 'https://www.periscope.tv/GlowQueen';
 
