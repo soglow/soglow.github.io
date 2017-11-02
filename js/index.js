@@ -271,6 +271,9 @@ function generate_page(page_type)
  //     ...insert the user's avatar.
  user_avatar_image = 'images/' + user_avatar_image;
  eval("document.getElementById('user_avatar').style.backgroundImage=\"url(" + user_avatar_image + ")\"");
+
+ //     ...insert the user's username.
+ document.getElementById('username').innerHTML = username;
  //     ...insert the user's full name.
  document.getElementById('user_full_name').innerHTML = user_full_name;
  //     ...insert the user's short description.
